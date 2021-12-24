@@ -3,6 +3,20 @@
     src: url("/fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf");
 }
 
+
+/* ============================================= */
+
+
+/*              Variables                    */
+
+
+/* ============================================= */
+
+
+$color-primary: #07223F;
+$color-secondary: #FF6200;2
+
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -33,7 +47,7 @@ header a {
 
 header {
     padding: 0 40px;
-    background-color: #07223F;
+    background-color: $color-primary;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -51,16 +65,6 @@ header {
     background-image: url(/vi/Logo.svg);
 }
 
-#brand {
-    font-weight: bold;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-}
-
-#brand a {
-    color: #09c372;
-}
 
 ul {
     font-family: 'proxima-nova', bold;
@@ -93,17 +97,10 @@ ul li:hover {
 }
 
 #login {
-    border: 1px solid #FF6200;
-    background-color: #FF6200;
+    border: 1px solid $color-secondary;
+    background-color: $color-secondary;
 }
 
-#signup {
-    border: 1px solid #ff3860;
-}
-
-#signup a {
-    color: #ff3860;
-}
 
 #login a {
     color: #ffffff;
@@ -161,14 +158,14 @@ ul li:hover {
     margin-top: -100px;
     font-family: 'Bebas Neue', bold;
     font-size: 50px;
-    color: #07223F;
+    color: $color-primary;
     text-align: left;
     margin-left: 40px;
     line-height: 48px;
 }
 
 .hero-text-title-alt {
-    color: #FF6200;
+    color: $color-secondary;
 }
 
 .message_us_img {
@@ -198,26 +195,11 @@ button {
     display: inline;
 }
 
-.button-alt {
-    font-family: "proxima-nova", regular;
-    font-size: 14px;
-    display: inline;
-    height: 40px;
-    width: 139px;
-    border: #FF6200;
-    border-radius: 12px;
-    background-color: white;
-    border: 1px solid #FF6200;
-    background-color: white;
-    border-radius: 1px;
-    padding: 5px 8px;
-    color: #FF6200;
-}
 
 .vape {
     height: 40px;
     width: 139px;
-    background-color: #FF6200;
+    background-color: $color-secondary;
     border: none;
     border-radius: 12px;
     color: white;
@@ -226,16 +208,16 @@ button {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    box-shadow: 0 2px 4px 0 #FF6200;
+    box-shadow: 0 2px 4px 0 $color-secondary;
 }
 
 .vape-alt {
     height: 40px;
     width: 139px;
     background-color: white;
-    border: 2px solid #FF6200;
+    border: 2px solid $color-secondary;
     border-radius: 12px;
-    color: #FF6200;
+    color: $color-secondary;
     text-align: center;
     vertical-align: middle;
     display: inline-block;
@@ -264,7 +246,7 @@ button {
     height: 38px;
     width: 375px;
     margin-top: -60px;
-    color: #07223F;
+    color: $color-primary;
     font-family: "Bebas Neue";
     font-size: 27px;
     font-weight: bold;
@@ -302,12 +284,12 @@ button {
 
 .swiper-pagination>.swiper-pagination-bullet {
     opacity: 1;
-    border: #07223F solid 2px;
+    border: $color-primary solid 2px;
     background-color: transparent;
 }
 
 .swiper-pagination>.swiper-pagination-bullet-active {
-    background-color: #FF6200;
+    background-color: $color-secondary;
 }
 
 .desktop {
@@ -390,7 +372,7 @@ header nav {
         font-family: 'Bebas Neue', bold;
         font-size: 86px;
         line-height: 72px;
-        color: #07223F;
+        color: $color-primary;
         text-align: left;
         margin-left: 40px;
     }
@@ -408,7 +390,7 @@ header nav {
     .vape {
         height: 40px;
         width: 207px;
-        background-color: #FF6200;
+        background-color: $color-secondary;
         border: none;
         border-radius: 12px;
         color: white;
@@ -417,15 +399,15 @@ header nav {
         display: inline-block;
         font-size: 16px;
         margin: 4px 2px;
-        box-shadow: 0 2px 4px 0 #FF6200;
+        box-shadow: 0 2px 4px 0 $color-secondary;
     }
     .vape-alt {
         height: 40px;
         width: 207px;
         background-color: white;
-        border: 2px solid #FF6200;
+        border: 2px solid $color-secondary;
         border-radius: 12px;
-        color: #FF6200;
+        color: $color-secondary;
         text-align: center;
         vertical-align: middle;
         display: inline-block;
@@ -471,18 +453,18 @@ header nav {
     }
     .swiper-pagination>.swiper-pagination-bullet {
         opacity: 1;
-        border: #07223F solid 2px;
+        border: $color-primary solid 2px;
         background-color: transparent;
     }
     .swiper-pagination>.swiper-pagination-bullet-active {
-        background-color: #FF6200;
+        background-color: $color-secondary;
     }
     .carousel-title-overlay-message-us {
         z-index: 2;
         height: 38px;
         width: 2610px;
         margin-top: -91px;
-        color: #07223F;
+        color: $color-primary;
         font-family: "Bebas Neue";
         font-size: 27px;
         font-weight: bold;
