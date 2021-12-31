@@ -81,9 +81,11 @@ button {
   }
 }
 
+
+
 @font-face {
   font-family: "proxima-nova";
-  src: url("/fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf");
+  src: url("./fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf");
 }
 
 .container {
